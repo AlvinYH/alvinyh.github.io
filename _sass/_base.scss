@@ -106,7 +106,7 @@ blockquote {
   }
 }
 .profile.float-right{
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 .profile.float-left{
   margin-right: 1rem;
@@ -493,10 +493,10 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-      width: 1000px;
+      width: 950px;
       .preview {
         width: 100%;
-        min-width: 160px;
+        min-width: 140px;
         max-width: 300px;
       }
       .abbr {
