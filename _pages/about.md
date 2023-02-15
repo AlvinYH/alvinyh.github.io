@@ -8,9 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-news: true  # includes a list of news items
+news: false  # includes a list of news items
+awards: true
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a senior undergraduate majoring in Artificial Intelligence at Yuanpei College in [Peking University](https://english.pku.edu.cn/). I am also a member of [Tong Class](https://www.ai.pku.edu.cn/info/1064/1888.htm), which is an elite undergraduate program of General Artificial Intelligence led by [Prof. Songchun Zhu](http://www.stat.ucla.edu/~sczhu/).

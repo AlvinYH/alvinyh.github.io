@@ -46,9 +46,15 @@ layout: default
             {%- include news.html %}
           {%- endif %}
 
+          <!-- Awards -->
+          {% if page.awards -%}
+          <h2>Selected Awards</h2>
+          {%- include awards.html %}
+          {%- endif %}
+
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
+            <h2 class="pub_title"><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">Publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
